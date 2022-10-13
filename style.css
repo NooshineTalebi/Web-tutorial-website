@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+img{
+    border-radius: 1rem;
+}
+.bg-primary{
+    background-color: #6244c5 !important;
+}
+.bg-warning{
+    background-color:#ffd57c !important;
+}
+.bg-light{
+    color: #6244c5 !important;
+}
+.btn-warning{
+    background-color: #ffd57c !important;
+}
+.btn-primary{
+    background-color: #6244c5 !important;
+}
+.btn-primary:hover{
+    background-color: #222740 !important;
+}
+.readmore:hover{
+    background-color: #dff7ff !important;
+}
+.navbar-brand{
+    color: rgb(64, 142, 219) !important;
+}
+.nav-link{
+    color: rgb(128, 32, 196) !important;
+    font-weight: bold !important;
+}
+textarea{
+    resize: none !important;
+    height: 10rem !important;
+    border-radius: 4px !important;
+    padding-left: 0.5rem !important;
+    outline: none !important;
+}
+input , textarea{
+    border: 1px solid rgb(128, 32, 196) !important;
+}
+::placeholder , label{
+    color: #6244c5 !important;
+}
+.list-group-item{
+    color: #b9005b;
+}
+.list-group-item:hover{
+    color: #9734f9;
+}
+footer{
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #111;
+    padding-top: 40px;
+    color: #fff;
+    font-family: "Opan Sans";
+    overflow-x: hidden;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 30px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color 0.4s ease;
+}
+.socials a:hover{
+    color: aqua;
+}
+.footer-bottom{
+    background-color: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 15px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: 0.4;
+    font-weight: 200;
+}
