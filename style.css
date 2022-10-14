@@ -111,7 +111,7 @@ footer{
 .footer-bottom p{
     font-size: 15px;
     word-spacing: 2px;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 .footer-bottom span{
     text-transform: uppercase;
